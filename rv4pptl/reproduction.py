@@ -1,4 +1,4 @@
-"""Recompute paper tables, semantic checks, and historical detector selections.
+"""Recompute result tables, semantic checks, and historical detector selections.
 
 Expected numbers are read only by comparison routines, never used as results.
 The external PPTL2BA translation and its original wall-clock time are archived
@@ -164,7 +164,7 @@ def score(titles, labels, event_map):
     hot = [t for t in titles if t in positives]
     n, h, e = len(titles), len(hot), len({event_map.get(t, t) for t in hot})
     if not n or not h:
-        raise ValueError("Paper rows require positive denominators")
+        raise ValueError("Score rows require positive denominators")
     p, d = h / n, e / h
     harmonic = 2 * p * d / (p + d)
     return [n, h, e, f"{p:.3f}", f"{d:.3f}", f"{harmonic:.3f}"]
@@ -253,9 +253,9 @@ def main(argv=None):
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
     start = time.perf_counter()
-    expected = read_json(ROOT / "expected/paper_results.json")
+    expected = read_json(ROOT / "expected/results.json")
     retained = read_json(ROOT / "data/retained_results.json")
-    results = {"paper_version": expected["paper_version"], "input_files_verified": integrity_checks()}
+    results = {"input_files_verified": integrity_checks()}
     print("Checking the direct backend and reconstructing the previous adapter...", flush=True)
     validation = run_checks()
     results["validation"] = dict(inputs=validation["input_count"],
@@ -294,8 +294,8 @@ def main(argv=None):
     for name, obj in [("results.json", results), ("semantic_validation.json", validation),
                       ("selected_topic_replay.json", replay), ("historical_selections.json", selections)]:
         (args.output / name).write_text(json.dumps(obj, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    (args.output / "paper_tables.md").write_text(report_markdown(results), encoding="utf-8")
-    print(f"PASS: all four tables and semantic checks match paper {expected['paper_version']}.\nOutputs: {args.output}", flush=True)
+    (args.output / "results_tables.md").write_text(report_markdown(results), encoding="utf-8")
+    print(f"PASS: all four tables and semantic checks match the archived expected values.\nOutputs: {args.output}", flush=True)
     print(f"Elapsed: {results['environment']['elapsed_seconds']} s; baseline rerun: {args.rerun_baselines}")
 
 

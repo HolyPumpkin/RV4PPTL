@@ -10,3 +10,7 @@ Thumbs.db
 .env.*
 *.pem
 *.key
+*.baiduyun.p.downloading
+*.baiduyun.uploading.cfg
+*冲突文件*
+RV4PPTL-TACAS2027-review.pdf

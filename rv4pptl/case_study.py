@@ -1,6 +1,6 @@
 """Archived preprocessing and clustering routines used by the retained study.
 
-The paper uses the background heat variant (bg), six-hour maxima and
+The study uses the background heat variant (bg), six-hour maxima and
 first-positive-period cohorts. Other variants are retained but not used.
 """
 from pathlib import Path

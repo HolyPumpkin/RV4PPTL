@@ -1,6 +1,6 @@
 """Retained adapter algorithms for reconstruction from archived PPTL2BA graphs.
 
-This adapter has the last-sample defect documented in the paper. It is retained
+This adapter has a known last-sample defect, shown in the diagnostic tables. It is retained
 only to reproduce the historical results and the diagnostic comparison.
 External translator invocation and machine-specific paths are excluded.
 """
@@ -297,8 +297,8 @@ def hopcroft(dfa):
                 dead=new_dead, minterms=mt, n=dfa["n"])
 
 def product_monitor(dfa_phi, dfa_nphi):
-    """Product of the two minimized DFAs with three-valued verdicts (paper's
-    Definition 'Monitor'). Returns reachable FSM + verdict labeling."""
+    """Product of the two minimized DFAs with three-valued verdicts (the
+    'Monitor' definition). Returns reachable FSM + verdict labeling."""
     mt = dfa_phi["minterms"]
     keys = [_mi_key(m) for m in mt]
     d1 = {}

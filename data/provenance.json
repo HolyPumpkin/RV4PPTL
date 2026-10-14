@@ -1,7 +1,5 @@
 {
-  "paper_version": "V2.5 (2026-10-14)",
-  "paper_source_sha256": "35ea16b08627291099f87db724b95925b433553ebeef298467176b623709ae32",
-  "original_root": "2027TACAS (author workspace; not required at runtime)",
+  "original_root": "author workspace (not required at runtime)",
   "files": [
     {
       "path": "rv4pptl/monitor.py",
@@ -111,6 +109,5 @@
       "source_sha256": "955c2acf0d0e452cf1792247bc3b731ea9ff472a83b8cfe43d1989042c849da7",
       "transformation": "Function bodies copied verbatim; portable imports and local data paths; unused executable entry points excluded."
     }
-  ],
-  "version_note": "V2.5 changes theorem numbering and data availability only; all equations, proofs and experimental values remain those of V2.4."
+  ]
 }
