@@ -1,0 +1,179 @@
+{
+  "input_files_verified": 16,
+  "validation": {
+    "inputs": 1024,
+    "prefix_checks": 11264,
+    "mismatches": 0,
+    "direct_states": 21
+  },
+  "table_2": {
+    "positive": [
+      30,
+      30,
+      21,
+      21
+    ],
+    "negative": [
+      21,
+      21,
+      28,
+      15
+    ],
+    "allocated_monitor_states": 22
+  },
+  "legacy_diagnostic": {
+    "false": 160,
+    "inconclusive": 96,
+    "true": 256,
+    "last_sample_misses": 96
+  },
+  "table_1": [
+    {
+      "high_positions": [
+        0,
+        2
+      ],
+      "length": 9,
+      "bounded": "inconclusive",
+      "previous_adapter": "true",
+      "direct_backend": "true"
+    },
+    {
+      "high_positions": [
+        0,
+        2
+      ],
+      "length": 10,
+      "bounded": "false",
+      "previous_adapter": "true",
+      "direct_backend": "true"
+    },
+    {
+      "high_positions": [
+        0,
+        8
+      ],
+      "length": 9,
+      "bounded": "inconclusive",
+      "previous_adapter": "inconclusive",
+      "direct_backend": "true"
+    },
+    {
+      "high_positions": [
+        0,
+        8
+      ],
+      "length": 10,
+      "bounded": "false",
+      "previous_adapter": "false",
+      "direct_backend": "true"
+    }
+  ],
+  "data": {
+    "rows": 32942,
+    "snapshots": 634,
+    "titles": 8061,
+    "positive_topics": 5427,
+    "calibration_topics": 2737,
+    "evaluation_topics": 2690
+  },
+  "retained_replay": {
+    "topics": 26,
+    "satisfying": 26,
+    "monitor_true": 26
+  },
+  "table_3": [
+    [
+      "1.0",
+      17,
+      14,
+      13,
+      "0.824",
+      "0.929",
+      "0.873"
+    ],
+    [
+      "0.9",
+      18,
+      15,
+      13,
+      "0.833",
+      "0.867",
+      "0.850"
+    ],
+    [
+      "0.8",
+      20,
+      16,
+      14,
+      "0.800",
+      "0.875",
+      "0.836"
+    ],
+    [
+      "0.7",
+      25,
+      20,
+      16,
+      "0.800",
+      "0.800",
+      "0.800"
+    ],
+    [
+      "0.6",
+      33,
+      24,
+      20,
+      "0.727",
+      "0.833",
+      "0.777"
+    ]
+  ],
+  "table_4": [
+    [
+      "Previous RV4PPTL prototype",
+      9,
+      8,
+      6,
+      "0.889",
+      "0.750",
+      "0.814"
+    ],
+    [
+      "Single-pass",
+      15,
+      4,
+      4,
+      "0.267",
+      "1.000",
+      "0.421"
+    ],
+    [
+      "HAC routine",
+      15,
+      3,
+      3,
+      "0.200",
+      "1.000",
+      "0.333"
+    ],
+    [
+      "K-means label (medoids)",
+      20,
+      10,
+      10,
+      "0.500",
+      "1.000",
+      "0.667"
+    ]
+  ],
+  "baseline_algorithms_rerun": false,
+  "historical_detector_selections_match": true,
+  "historical_timing_seconds": 2.386111300031189,
+  "all_requested_checks_passed": true,
+  "environment": {
+    "python": "3.14.7",
+    "system": "Windows",
+    "elapsed_seconds": 1.593
+  }
+}

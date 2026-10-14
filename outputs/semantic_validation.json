@@ -1,0 +1,18 @@
+{
+  "scope": "Focused semantic validation, no performance timing or new full-data detection run.",
+  "input_count": 1024,
+  "prefix_verdict_checks": 11264,
+  "mismatch_count": 0,
+  "mismatches": [],
+  "compiler_states": 21,
+  "alphabet_size": 4,
+  "absorbing_transition_checks": 8,
+  "edge_case_specs": [
+    "contradiction",
+    "horizon_only",
+    "first_p",
+    "not_first_p"
+  ],
+  "finite_empty_word_rejected": true,
+  "source_sha256": "ea5ed2f0101ed6ad76008a7ba6f2196578e63d220d2e6e0ac13467fe735b8d59"
+}
