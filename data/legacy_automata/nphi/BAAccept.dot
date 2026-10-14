@@ -1,0 +1,10 @@
+digraph G{
+color=lightgrey;
+style=filled;
+label="Accepting nodes of BA";
+a[shape=none,margin=0,label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+<TR><TD>Accepting set</TD></TR>
+<TR><TD>Node2;Node5;</TD></TR>
+</TABLE>>];
+}

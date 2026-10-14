@@ -1,0 +1,116 @@
+{
+  "paper_version": "V2.5 (2026-10-14)",
+  "paper_source_sha256": "35ea16b08627291099f87db724b95925b433553ebeef298467176b623709ae32",
+  "original_root": "2027TACAS (author workspace; not required at runtime)",
+  "files": [
+    {
+      "path": "rv4pptl/monitor.py",
+      "source": "artifact/bounded_monitor.py",
+      "sha256": "ea5ed2f0101ed6ad76008a7ba6f2196578e63d220d2e6e0ac13467fe735b8d59",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "data/weibo/hot_topics_hourly.csv",
+      "source": "evidence/experiment/hot_topics_hourly.csv",
+      "sha256": "f67974cfdc19cd52819c374fdb2f07bbb419889758e3279800f8edbef014ed0b",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "data/weibo/ground_truth.json",
+      "source": "evidence/experiment/ground_truth.json",
+      "sha256": "29e937d8d085de4e026217d6642e715b410ab8e8b01cc616752f16391f97d04f",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "data/weibo/ground_truth_test.json",
+      "source": "evidence/experiment/ground_truth_test.json",
+      "sha256": "a29495cc01abafe3c6bed1fd659c8b5c0ec04507e8a451b70b5f26f928dc29f8",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "data/weibo/event_map.json",
+      "source": "evidence/experiment/event_map.json",
+      "sha256": "870589f13d83f019d5df48eab25cd0275108e8f0730d4074e7ad16ceb082de98",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "data/weibo/event_map_test.json",
+      "source": "evidence/experiment/event_map_test.json",
+      "sha256": "935023c0f29acceb84af88ca74a796624f92b3799ff8ffd9beac55c4da3090bf",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "data/retained_results.json",
+      "source": "evidence/experiment/results.json",
+      "sha256": "8609a19df78387dd37f05b47f39ed576f6c4f080709acb0f993c88c1ba851ba2",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "data/two_proposition_check.log",
+      "source": "evidence/experiment/verify_m_removal.log",
+      "sha256": "f8fb0441be7b0372cb58255f9a3942ff42d4c79525e4d3b4c79596df6284f72e",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "data/legacy_automata/phi/BAAccept.dot",
+      "source": "review/checks/inputs/phi/BAAccept.dot",
+      "sha256": "8f58ceeb460514317f68c1bcf90ba6d9e8a35855f8be3addb5cf5e1650f0036d",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "data/legacy_automata/phi/BAEdge.dot",
+      "source": "review/checks/inputs/phi/BAEdge.dot",
+      "sha256": "44f8959c7a2cb1d8c4ebf83dbc35763ade7e5daac7a54d3c41d292bf4bfb071a",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "data/legacy_automata/phi/BANode.dot",
+      "source": "review/checks/inputs/phi/BANode.dot",
+      "sha256": "9a7f15e252bea72249dae1b24f9088f13b92be3a600ad358e33a80e73a2fda56",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "data/legacy_automata/phi/LNFGNode.dot",
+      "source": "review/checks/inputs/phi/LNFGNode.dot",
+      "sha256": "609cde294008d38942c505b2c254433ec0f6d91b1222c7ead4e1e9fe5c271f68",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "data/legacy_automata/nphi/BAAccept.dot",
+      "source": "review/checks/inputs/nphi/BAAccept.dot",
+      "sha256": "3d54d746f2ff2793028cdef5cef4e041eafc71c4a545f8f90116d7fa9c08d96f",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "data/legacy_automata/nphi/BAEdge.dot",
+      "source": "review/checks/inputs/nphi/BAEdge.dot",
+      "sha256": "363ddc5c20f435e7802c0e16e166cc81552f05e7c124552d1638262ed7427018",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "data/legacy_automata/nphi/BANode.dot",
+      "source": "review/checks/inputs/nphi/BANode.dot",
+      "sha256": "54efc684cab2ec72ae844b5821c168a02cb7e52072eb97866fd17247fb5e56b4",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "data/legacy_automata/nphi/LNFGNode.dot",
+      "source": "review/checks/inputs/nphi/LNFGNode.dot",
+      "sha256": "832c21b3588a0212d535cfaca198fc917c4acc8e89b1dbe8bffdcc2d737161ee",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "rv4pptl/legacy.py",
+      "source": "evidence/experiment/monitor_chain.py",
+      "source_sha256": "74b295745bba5ad91cca219eff981fc189d1ab12bee32a3d89200326966b1724",
+      "transformation": "Function bodies copied verbatim; portable imports and local data paths; unused executable entry points excluded."
+    },
+    {
+      "path": "rv4pptl/case_study.py",
+      "source": "evidence/experiment/run_experiment.py",
+      "source_sha256": "955c2acf0d0e452cf1792247bc3b731ea9ff472a83b8cfe43d1989042c849da7",
+      "transformation": "Function bodies copied verbatim; portable imports and local data paths; unused executable entry points excluded."
+    }
+  ],
+  "version_note": "V2.5 changes theorem numbering and data availability only; all equations, proofs and experimental values remain those of V2.4."
+}

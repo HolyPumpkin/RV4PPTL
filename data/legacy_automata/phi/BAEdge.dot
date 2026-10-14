@@ -1,0 +1,79 @@
+digraph G1{
+color=lightgrey;
+style=filled;
+label="Edges of BA";
+b[shape=none,margin=0,label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+<TR><TD>Edge ID</TD><TD>state formula</TD><TD>-&gt;</TD></TR>
+<TR><TD>Edge1</TD><TD>(p)</TD><TD>Node1-&gt;Node2</TD>
+</TR>
+<TR><TD>Edge2</TD><TD>(p)</TD><TD>Node1-&gt;Node3</TD>
+</TR>
+<TR><TD>Edge3</TD><TD>(p)</TD><TD>Node1-&gt;Node4</TD>
+</TR>
+<TR><TD>Edge4</TD><TD>(q) &amp;&amp; (p)</TD><TD>Node1-&gt;Node5</TD>
+</TR>
+<TR><TD>Edge5</TD><TD>(q) &amp;&amp; (p)</TD><TD>Node1-&gt;Node6</TD>
+</TR>
+<TR><TD>Edge6</TD><TD>(q) &amp;&amp; (p)</TD><TD>Node1-&gt;Node7</TD>
+</TR>
+<TR><TD>Edge7</TD><TD>TRUE</TD><TD>Node2-&gt;Node8</TD>
+</TR>
+<TR><TD>Edge8</TD><TD>TRUE</TD><TD>Node3-&gt;Node9</TD>
+</TR>
+<TR><TD>Edge9</TD><TD>TRUE</TD><TD>Node4-&gt;Node10</TD>
+</TR>
+<TR><TD>Edge10</TD><TD>TRUE</TD><TD>Node5-&gt;Node11</TD>
+</TR>
+<TR><TD>Edge11</TD><TD>TRUE</TD><TD>Node6-&gt;Node12</TD>
+</TR>
+<TR><TD>Edge12</TD><TD>TRUE</TD><TD>Node7-&gt;Node13</TD>
+</TR>
+<TR><TD>Edge13</TD><TD>TRUE</TD><TD>Node8-&gt;Node14</TD>
+</TR>
+<TR><TD>Edge14</TD><TD>(q)</TD><TD>Node9-&gt;Node15</TD>
+</TR>
+<TR><TD>Edge15</TD><TD>(q)</TD><TD>Node10-&gt;Node16</TD>
+</TR>
+<TR><TD>Edge16</TD><TD>TRUE</TD><TD>Node11-&gt;Node15</TD>
+</TR>
+<TR><TD>Edge17</TD><TD>TRUE</TD><TD>Node12-&gt;Node16</TD>
+</TR>
+<TR><TD>Edge18</TD><TD>(q)</TD><TD>Node13-&gt;Node17</TD>
+</TR>
+<TR><TD>Edge19</TD><TD>TRUE</TD><TD>Node14-&gt;Node18</TD>
+</TR>
+<TR><TD>Edge20</TD><TD>TRUE</TD><TD>Node15-&gt;Node19</TD>
+</TR>
+<TR><TD>Edge21</TD><TD>TRUE</TD><TD>Node16-&gt;Node20</TD>
+</TR>
+<TR><TD>Edge22</TD><TD>TRUE</TD><TD>Node17-&gt;Node21</TD>
+</TR>
+<TR><TD>Edge23</TD><TD>(q)</TD><TD>Node18-&gt;Node22</TD>
+</TR>
+<TR><TD>Edge24</TD><TD>TRUE</TD><TD>Node19-&gt;Node22</TD>
+</TR>
+<TR><TD>Edge25</TD><TD>(q)</TD><TD>Node20-&gt;Node23</TD>
+</TR>
+<TR><TD>Edge26</TD><TD>TRUE</TD><TD>Node21-&gt;Node23</TD>
+</TR>
+<TR><TD>Edge27</TD><TD>TRUE</TD><TD>Node22-&gt;Node24</TD>
+</TR>
+<TR><TD>Edge28</TD><TD>TRUE</TD><TD>Node23-&gt;Node25</TD>
+</TR>
+<TR><TD>Edge29</TD><TD>TRUE</TD><TD>Node24-&gt;Node26</TD>
+</TR>
+<TR><TD>Edge30</TD><TD>TRUE</TD><TD>Node25-&gt;Node27</TD>
+</TR>
+<TR><TD>Edge31</TD><TD>TRUE</TD><TD>Node26-&gt;Node28</TD>
+</TR>
+<TR><TD>Edge32</TD><TD>TRUE</TD><TD>Node27-&gt;Node29</TD>
+</TR>
+<TR><TD>Edge33</TD><TD>(q)</TD><TD>Node28-&gt;Node30</TD>
+</TR>
+<TR><TD>Edge34</TD><TD>TRUE</TD><TD>Node29-&gt;Node30</TD>
+</TR>
+<TR><TD>Edge35</TD><TD>tau</TD><TD>Node30-&gt;Node30</TD>
+</TR>
+</TABLE>>];
+}

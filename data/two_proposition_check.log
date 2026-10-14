@@ -1,0 +1,12 @@
+monitor (2-prop): {"phi": {"sba": 30, "sba_edges": 35, "nfa": 30, "nfa_acc": 30, "dfa": 21, "min_dfa": 21}, "nphi": {"sba": 21, "sba_edges": 46, "nfa": 21, "nfa_acc": 20, "dfa": 28, "min_dfa": 15}, "fsm_states": 22, "fsm_inconclusive": 20, "total_time_s": 2.386111300031189, "tool_time_s": 1.999593399988953, "satisfiable": [true, true], "aps": ["p", "q"]}
+r=1.0 rv_train: new=17 old=17 OK
+r=1.0 rv_test: new=9 old=9 OK
+r=0.9 rv_train: new=18 old=18 OK
+r=0.9 rv_test: new=16 old=16 OK
+r=0.8 rv_train: new=20 old=20 OK
+r=0.8 rv_test: new=20 old=20 OK
+r=0.7 rv_train: new=25 old=25 OK
+r=0.7 rv_test: new=26 old=26 OK
+r=0.6 rv_train: new=33 old=33 OK
+r=0.6 rv_test: new=42 old=42 OK
+ALL IDENTICAL

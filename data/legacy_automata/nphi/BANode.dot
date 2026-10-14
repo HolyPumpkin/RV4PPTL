@@ -1,0 +1,51 @@
+digraph G{
+color=lightgrey;
+style=filled;
+label="Nodes of BA";
+a[shape=none,margin=0,label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+<TR><TD>Node ID</TD><TD>Corresponding PPTL formula</TD></TR>
+<TR><TD>Node1</TD><TD>!(len(2),len(2),len(4)) prj ((len(3)) &amp;&amp; (p) &amp;&amp; (q) &amp;&amp; ()(q)) &amp;&amp; !(len(2),len(2),len(4)) prj ((len(3)) &amp;&amp; (p) &amp;&amp; (q) &amp;&amp; ()()(q)) &amp;&amp; !(len(2),len(2),len(4)) prj ((len(3)) &amp;&amp; (p) &amp;&amp; (q) &amp;&amp; ()()()(q)) &amp;&amp; !(len(2),len(2),len(4)) prj ((len(3)) &amp;&amp; (p) &amp;&amp; ()(q) &amp;&amp; ()()(q)) &amp;&amp; !(len(2),len(2),len(4)) prj ((len(3)) &amp;&amp; (p) &amp;&amp; ()(q) &amp;&amp; ()()()(q)) &amp;&amp; !(len(2),len(2),len(4)) prj ((len(3)) &amp;&amp; (p) &amp;&amp; ()()(q) &amp;&amp; ()()()(q))</TD>
+</TR>
+<TR><TD>Node2</TD><TD>TRUE</TD>
+</TR>
+<TR><TD>Node3</TD><TD>!(()EMPTY ; (len(2),len(4)) prj (()()EMPTY &amp;&amp; (q) &amp;&amp; ()(q))) &amp;&amp; !(()EMPTY ; (len(2),len(4)) prj (()()EMPTY &amp;&amp; (q) &amp;&amp; ()()(q))) &amp;&amp; !(()EMPTY ; (len(2),len(4)) prj (()()EMPTY &amp;&amp; ()(q) &amp;&amp; ()()(q)))</TD>
+</TR>
+<TR><TD>Node4</TD><TD>!(()EMPTY ; ((q) &amp;&amp; (len(2),len(4)) prj (()()EMPTY))) &amp;&amp; !(()EMPTY ; (len(2),len(4)) prj (()()EMPTY &amp;&amp; ()(q))) &amp;&amp; !(()EMPTY ; (len(2),len(4)) prj (()()EMPTY &amp;&amp; ()()(q))) &amp;&amp; !(()EMPTY ; (len(2),len(4)) prj (()()EMPTY &amp;&amp; (q) &amp;&amp; ()(q))) &amp;&amp; !(()EMPTY ; (len(2),len(4)) prj (()()EMPTY &amp;&amp; (q) &amp;&amp; ()()(q))) &amp;&amp; !(()EMPTY ; (len(2),len(4)) prj (()()EMPTY &amp;&amp; ()(q) &amp;&amp; ()()(q)))</TD>
+</TR>
+<TR><TD>Node5</TD><TD>EMPTY</TD>
+</TR>
+<TR><TD>Node6</TD><TD>!(len(2),len(4)) prj (()()EMPTY &amp;&amp; (q) &amp;&amp; ()(q)) &amp;&amp; !(len(2),len(4)) prj (()()EMPTY &amp;&amp; (q) &amp;&amp; ()()(q)) &amp;&amp; !(len(2),len(4)) prj (()()EMPTY &amp;&amp; ()(q) &amp;&amp; ()()(q))</TD>
+</TR>
+<TR><TD>Node7</TD><TD>(!(q) &amp;&amp; !(len(2),len(4)) prj (()()EMPTY &amp;&amp; ()(q)) &amp;&amp; !(len(2),len(4)) prj (()()EMPTY &amp;&amp; ()()(q)) &amp;&amp; !(len(2),len(4)) prj (()()EMPTY &amp;&amp; (q) &amp;&amp; ()(q)) &amp;&amp; !(len(2),len(4)) prj (()()EMPTY &amp;&amp; (q) &amp;&amp; ()()(q)) &amp;&amp; !(len(2),len(4)) prj (()()EMPTY &amp;&amp; ()(q) &amp;&amp; ()()(q))) || (!(len(2),len(4)) prj (()()EMPTY) &amp;&amp; !(len(2),len(4)) prj (()()EMPTY &amp;&amp; ()(q)) &amp;&amp; !(len(2),len(4)) prj (()()EMPTY &amp;&amp; ()()(q)) &amp;&amp; !(len(2),len(4)) prj (()()EMPTY &amp;&amp; (q) &amp;&amp; ()(q)) &amp;&amp; !(len(2),len(4)) prj (()()EMPTY &amp;&amp; (q) &amp;&amp; ()()(q)) &amp;&amp; !(len(2),len(4)) prj (()()EMPTY &amp;&amp; ()(q) &amp;&amp; ()()(q)))</TD>
+</TR>
+<TR><TD>Node8</TD><TD>!(()EMPTY ; (len(4)) prj (()EMPTY &amp;&amp; (q) &amp;&amp; ()(q)))</TD>
+</TR>
+<TR><TD>Node9</TD><TD>!(()EMPTY ; ((q) &amp;&amp; (len(4)) prj (()EMPTY))) &amp;&amp; !(()EMPTY ; (len(4)) prj (()EMPTY &amp;&amp; ()(q))) &amp;&amp; !(()EMPTY ; (len(4)) prj (()EMPTY &amp;&amp; (q) &amp;&amp; ()(q)))</TD>
+</TR>
+<TR><TD>Node10</TD><TD>!(()EMPTY ; (len(4)) prj (()EMPTY)) &amp;&amp; !(()EMPTY ; ((q) &amp;&amp; (len(4)) prj (()EMPTY))) &amp;&amp; !(()EMPTY ; (len(4)) prj (()EMPTY &amp;&amp; ()(q))) &amp;&amp; !(()EMPTY ; (len(4)) prj (()EMPTY &amp;&amp; (q) &amp;&amp; ()(q)))</TD>
+</TR>
+<TR><TD>Node11</TD><TD>!(len(4)) prj (()EMPTY &amp;&amp; (q) &amp;&amp; ()(q))</TD>
+</TR>
+<TR><TD>Node12</TD><TD>(!(q) &amp;&amp; !(len(4)) prj (()EMPTY &amp;&amp; ()(q)) &amp;&amp; !(len(4)) prj (()EMPTY &amp;&amp; (q) &amp;&amp; ()(q))) || (!(len(4)) prj (()EMPTY) &amp;&amp; !(len(4)) prj (()EMPTY &amp;&amp; ()(q)) &amp;&amp; !(len(4)) prj (()EMPTY &amp;&amp; (q) &amp;&amp; ()(q)))</TD>
+</TR>
+<TR><TD>Node13</TD><TD>!(len(4)) prj (()EMPTY) &amp;&amp; !(len(4)) prj (()EMPTY &amp;&amp; ()(q)) &amp;&amp; !(len(4)) prj (()EMPTY &amp;&amp; (q) &amp;&amp; ()(q))</TD>
+</TR>
+<TR><TD>Node14</TD><TD>!(()()()EMPTY ; (EMPTY &amp;&amp; (q)))</TD>
+</TR>
+<TR><TD>Node15</TD><TD>!(()()()EMPTY ; EMPTY) &amp;&amp; !(()()()EMPTY ; (EMPTY &amp;&amp; (q)))</TD>
+</TR>
+<TR><TD>Node16</TD><TD>!(()()EMPTY ; (EMPTY &amp;&amp; (q)))</TD>
+</TR>
+<TR><TD>Node17</TD><TD>!(()()EMPTY ; EMPTY) &amp;&amp; !(()()EMPTY ; (EMPTY &amp;&amp; (q)))</TD>
+</TR>
+<TR><TD>Node18</TD><TD>!(()EMPTY ; (EMPTY &amp;&amp; (q)))</TD>
+</TR>
+<TR><TD>Node19</TD><TD>!(()EMPTY ; EMPTY) &amp;&amp; !(()EMPTY ; (EMPTY &amp;&amp; (q)))</TD>
+</TR>
+<TR><TD>Node20</TD><TD>()TRUE || !(q)</TD>
+</TR>
+<TR><TD>Node21</TD><TD>(!(EMPTY ; EMPTY) &amp;&amp; ()TRUE) || (!(EMPTY ; EMPTY) &amp;&amp; !(q))</TD>
+</TR>
+</TABLE>>];
+}
